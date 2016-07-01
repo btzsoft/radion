@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "name": "fetch",
+  "main": "./fetch.server.js",
+  "browser": "./fetch.client.js",
+  "dependencies": {
+    "bluebird": "latest",
+    "node-fetch": "latest"
+  }
+}
