@@ -47,14 +47,14 @@ export default class AllStationsContainer extends Component {
 
   render() {
     const { all, isLoading } = this.props;
-    return <Infinite
+    return (<Infinite
       elementHeight={40}
-      containerHeight={600}
+      containerHeight={500}
       infiniteLoadBeginEdgeOffset={200}
       isInfiniteLoading={isLoading}
       onInfiniteLoad={this.handleInfiniteLoad.bind(this)}
     >
       <StationsGrid stations={all} />
-    </Infinite>;
+    </Infinite>);
   }
 }

@@ -99,6 +99,8 @@
   },
   "dependencies": {
     "autoprefixer": "latest",
+    "babel-plugin-react-transform": "^2.0.2",
+    "babel-plugin-transform-runtime": "^6.9.0",
     "body-parser": "^1.15.2",
     "cookie-parser": "^1.4.3",
     "expect": "^1.12.2",
